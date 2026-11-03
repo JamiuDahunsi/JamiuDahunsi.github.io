@@ -147,6 +147,26 @@
         <div class="academic-entry">
           <div class="entry-header">
             <div>
+              <h3 class="entry-title">FedShield-IDS: A Federated, Adversarially-Robust Intrusion Detection System for Heterogeneous IoT Networks</h3>
+              <p class="entry-institution">Carnegie Mellon University Manuscript (Under Review)</p>
+            </div>
+            <span class="entry-year">November 2026</span>
+          </div>
+          <p class="entry-details">
+            <strong>Jamiu Dahunsi</strong>.
+          </p>
+          <p class="entry-details" style="font-size: 0.9rem; margin-top: 0.4rem; color: var(--text-secondary);">
+            Proposes a federated intrusion detection framework coupling client-side Projected Gradient Descent (PGD) adversarial training with server-side kernel-normalized anomaly-aware aggregation. Tested on real network flow telemetry from the CIC-IDS2017 corpus, achieving 94.48% clean classification accuracy under Dirichlet non-IID heterogeneity (&beta;=0.5), suppressing evasion Attack Success Rates (ASR) from 34.64% to 5.60%, and neutralizing 100% of Byzantine model-poisoning updates with sub-0.12 ms edge inference latency.
+          </p>
+          <div class="pub-links" style="margin-top: 0.6rem; font-family: var(--font-mono); font-size: 0.85rem;">
+            <a href="assets/FedShield_IDS_Paper.pdf" target="_blank" rel="noopener" style="color: var(--cmu-red); font-weight: 600; margin-right: 1.25rem;">[Download PDF]</a>
+            <a href="https://scholar.google.com/citations?user=9bQ0oLcAAAAJ&hl=en" target="_blank" rel="noopener" style="color: var(--text-secondary); font-weight: 500;">[Google Scholar]</a>
+          </div>
+        </div>
+
+        <div class="academic-entry">
+          <div class="entry-header">
+            <div>
               <h3 class="entry-title">Improving Fake Profile Detection Through Multimodal Learning and Research-Guided Feature Integration</h3>
               <p class="entry-institution">arXiv preprint arXiv:2610.23926 [cs.LG]</p>
             </div>
@@ -384,6 +404,16 @@
       <section class="scholar-section" id="artifacts">
         <h2 class="section-heading">Systems & Technical Artifacts</h2>
         <div class="artifacts-list">
+          <div class="artifact-item">
+            <h3 class="artifact-title">FedShield-IDS: Adversarially-Robust Federated Learning Framework</h3>
+            <p class="artifact-desc">
+              PyTorch-based implementation of a privacy-preserving intrusion detection architecture for edge IoT nodes. Integrates client-side bounded &ell;&infin; PGD adversarial training with server-side Frobenius-normalized median consensus to resist Byzantine poisoning and feature manipulation under non-IID data distributions.
+            </p>
+            <a href="assets/FedShield_IDS_Paper.pdf" target="_blank" rel="noopener" class="artifact-link">
+              Read Paper Manuscript (PDF) →
+            </a>
+          </div>
+
           <div class="artifact-item">
             <h3 class="artifact-title">Production Three-Tier Architecture on Microsoft Azure</h3>
             <p class="artifact-desc">
